@@ -1,0 +1,6 @@
+# Шаблон файла подписи. Скопируйте в key.properties для локальной подписи.
+# В GitHub Actions подпись настраивается через Secrets, key.properties не нужен.
+storeFile=keystore/release.jks
+storePassword=changeme
+keyAlias=llmcar
+keyPassword=changeme
